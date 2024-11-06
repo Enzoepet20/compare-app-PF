@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import ProductCard from '../components/ProductCard';
 import CategoryCard from '../components/CategoryCard';
 import AlertList from '../components/AlertList';
+import BottomNav from '../components/BottomNav';
 import '../styles/HomeStyles.css'; // Archivo CSS mejorado
 
 function Home() {
@@ -60,6 +61,8 @@ function Home() {
                 </div>
                 <AlertList alerts={alerts} />
             </section>
+                        {/* Barra de Navegación */}
+                        <BottomNav />
         </div>
     );
 }

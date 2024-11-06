@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import ProfileCard from '../components/ProfileCard'; // Nuevo componente para el perfil
+import BottomNav from '../components/BottomNav';
 
 function Perfil() {
     const userInfo = {
@@ -16,6 +17,7 @@ function Perfil() {
                 <h3>Perfil de Usuario</h3>
                 <ProfileCard user={userInfo} />
             </section>
+            <BottomNav />
         </div>
     );
 }

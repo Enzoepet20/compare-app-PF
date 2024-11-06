@@ -7,6 +7,8 @@ import Reseñas from './pages/Reseñas';
 import Perfil from './pages/Perfil';
 import Login from './pages/Login';
 import Register from './pages/Register';
+import 'primeicons/primeicons.css';
+
 
 function App() {
     return (
